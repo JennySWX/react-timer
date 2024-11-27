@@ -1,0 +1,50 @@
+/* style.module.css */
+body {
+    background-color: black;
+  }
+  
+  .timerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.531);
+    border-radius: 10px; /* Rounded corners (optional) */ /* Color of the rectangle */
+    font-size: 100px;
+    backdrop-filter: blur(10px);
+    margin: 5% 0;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
+  }
+  
+  button {
+    margin: 0 40px;
+    background-color: #4caf50; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding inside button */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .hr,
+  .min,
+  .sec {
+    font-size: 24px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
